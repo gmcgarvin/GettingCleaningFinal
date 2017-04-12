@@ -34,7 +34,7 @@ A merged and fully identified dataset was created using the files provided:
 * Imported observations for subjects in test group.
 * Imported observations for subjects in train group.
 * Add column labels, subject ID, and activity name from files provided.
-* Reduced each data set to those variables to those representing mean or standard deviation.
+* Reduced each data set to those variables representing mean or standard deviation.
 * Merged the reduced data for all subjects into a single dataset.
 * Calculated the mean for all variables by subject and activity.
 * Exported the results to a CSV file named meanBySubjectActivity.csv.

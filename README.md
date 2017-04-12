@@ -5,7 +5,7 @@ Gerald.McGarvin@hotmail.com
 
 ### Project Overview: 
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 The results of this effort are delivered as follows:
 * meanBySubjectActivity.csv - a tidy data set fully described in CodeBook.md.
@@ -23,7 +23,7 @@ The information in this file and the script provided can be used to easily verif
 *     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Note that it will take several minutes to import the data and that the data imported will consume many gigabytes of memory space.
 * Start RStudio.
-* In RStudio, execute, use setwd() to access the directory where the run_analysis.R script is located.
+* In RStudio, use setwd() to access the directory where the run_analysis.R script is located.
 * Execute the command to read-in and execute the script: source("./run_analysis.R")
 * After several minutes, the script will complete and the RStudio prompt will return.
 * Verify that the tidy data set file, meanBySubjectActivity.csv, has been written to you current working directory.
