@@ -3,7 +3,7 @@
 Gerald McGarvin
 Gerald.McGarvin@hotmail.com
 
-###Project Overview: 
+### Project Overview: 
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
@@ -12,7 +12,7 @@ The results of this effort are delivered as follows:
 * run_analysis.R - the script that performs the analysis.
 * codeBook.md - a code book that describes the variables, the data, and transformations performed. 
 
-###Verifying and Reproducing the Results:
+### Verifying and Reproducing the Results:
 
 The information in this file and the script provided can be used to easily verify and reproduce my results.
 

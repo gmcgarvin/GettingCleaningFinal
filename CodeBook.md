@@ -1,9 +1,9 @@
-##Code Book - Getting and Cleaning Data Course Project
+## Code Book - Getting and Cleaning Data Course Project
 
 Gerald McGarvin
 Gerald.McGarvin@hotmail.com
 
-###Data used for this analysis: 
+### Data used for this analysis: 
 
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 
@@ -13,7 +13,7 @@ The embedded accelerometer and gyroscope, we captured 3-axial linear acceleratio
 
 See the last paragraph of this document for data capture details.
 
-###The data provided for this analysis included:
+### The data provided for this analysis included:
 
 * features_info.txt: Explains the source dataset.
 * features.txt: A description of each of the 561 measurements in the source dataset.
@@ -27,7 +27,7 @@ See the last paragraph of this document for data capture details.
 * test/y_test.txt: The activity ID for each observation in X_test.txt.
 * test/subject_test.txt: The subject ID for each observation in X_test.txt.
 
-###Analysis Performed:
+### Analysis Performed:
 
 A merged and fully identified dataset was created using the files provided:
 
@@ -41,98 +41,98 @@ A merged and fully identified dataset was created using the files provided:
 
 The results are provided in the file meanBySubjectActivity.csv, which contains the mean by subject and activity of the following 89 variables:
 
-subject
-activityid
-activitylabel
-tBodyAccmeanX
-tBodyAccmeanY
-tBodyAccmeanZ
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ
-tGravityAccmeanX
-tGravityAccmeanY
-tGravityAccmeanZ
-tGravityAccstdX
-tGravityAccstdY
-tGravityAccstdZ
-tBodyAccJerkmeanX
-tBodyAccJerkmeanY
-tBodyAccJerkmeanZ
-tBodyAccJerkstdX
-tBodyAccJerkstdY
-tBodyAccJerkstdZ
-tBodyGyromeanX
-tBodyGyromeanY
-tBodyGyromeanZ
-tBodyGyrostdX
-tBodyGyrostdY
-tBodyGyrostdZ
-tBodyGyroJerkmeanX
-tBodyGyroJerkmeanY
-tBodyGyroJerkmeanZ
-tBodyGyroJerkstdX
-tBodyGyroJerkstdY
-tBodyGyroJerkstdZ
-tBodyAccMagmean
-tBodyAccMagstd
-tGravityAccMagmean
-tGravityAccMagstd
-tBodyAccJerkMagmean
-tBodyAccJerkMagstd
-tBodyGyroMagmean
-tBodyGyroMagstd
-tBodyGyroJerkMagmean
-tBodyGyroJerkMagstd
-fBodyAccmeanX
-fBodyAccmeanY
-fBodyAccmeanZ
-fBodyAccstdX
-fBodyAccstdY
-fBodyAccstdZ
-fBodyAccmeanFreqX
-fBodyAccmeanFreqY
-fBodyAccmeanFreqZ
-fBodyAccJerkmeanX
-fBodyAccJerkmeanY
-fBodyAccJerkmeanZ
-fBodyAccJerkstdX
-fBodyAccJerkstdY
-fBodyAccJerkstdZ
-fBodyAccJerkmeanFreqX
-fBodyAccJerkmeanFreqY
-fBodyAccJerkmeanFreqZ
-fBodyGyromeanX
-fBodyGyromeanY
-fBodyGyromeanZ
-fBodyGyrostdX
-fBodyGyrostdY
-fBodyGyrostdZ
-fBodyGyromeanFreqX
-fBodyGyromeanFreqY
-fBodyGyromeanFreqZ
-fBodyAccMagmean
-fBodyAccMagstd
-fBodyAccMagmeanFreq
-fBodyBodyAccJerkMagmean
-fBodyBodyAccJerkMagstd
-fBodyBodyAccJerkMagmeanFreq
-fBodyBodyGyroMagmean
-fBodyBodyGyroMagstd
-fBodyBodyGyroMagmeanFreq
-fBodyBodyGyroJerkMagmean
-fBodyBodyGyroJerkMagstd
-fBodyBodyGyroJerkMagmeanFreq
-angletBodyAccMeangravity
-angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean
-angletBodyGyroJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
+* subject
+* activityid
+* activitylabel
+* tBodyAccmeanX
+* tBodyAccmeanY
+* tBodyAccmeanZ
+* tBodyAccstdX
+* tBodyAccstdY
+* tBodyAccstdZ
+* tGravityAccmeanX
+* tGravityAccmeanY
+* tGravityAccmeanZ
+* tGravityAccstdX
+* tGravityAccstdY
+* tGravityAccstdZ
+* tBodyAccJerkmeanX
+* tBodyAccJerkmeanY
+* tBodyAccJerkmeanZ
+* tBodyAccJerkstdX
+* tBodyAccJerkstdY
+* tBodyAccJerkstdZ
+* tBodyGyromeanX
+* tBodyGyromeanY
+* tBodyGyromeanZ
+* tBodyGyrostdX
+* tBodyGyrostdY
+* tBodyGyrostdZ
+* tBodyGyroJerkmeanX
+* tBodyGyroJerkmeanY
+* tBodyGyroJerkmeanZ
+* tBodyGyroJerkstdX
+* tBodyGyroJerkstdY
+* tBodyGyroJerkstdZ
+* tBodyAccMagmean
+* tBodyAccMagstd
+* tGravityAccMagmean
+* tGravityAccMagstd
+* tBodyAccJerkMagmean
+* tBodyAccJerkMagstd
+* tBodyGyroMagmean
+* tBodyGyroMagstd
+* tBodyGyroJerkMagmean
+* tBodyGyroJerkMagstd
+* fBodyAccmeanX
+* fBodyAccmeanY
+* fBodyAccmeanZ
+* fBodyAccstdX
+* fBodyAccstdY
+* fBodyAccstdZ
+* fBodyAccmeanFreqX
+* fBodyAccmeanFreqY
+* fBodyAccmeanFreqZ
+* fBodyAccJerkmeanX
+* fBodyAccJerkmeanY
+* fBodyAccJerkmeanZ
+* fBodyAccJerkstdX
+* fBodyAccJerkstdY
+* fBodyAccJerkstdZ
+* fBodyAccJerkmeanFreqX
+* fBodyAccJerkmeanFreqY
+* fBodyAccJerkmeanFreqZ
+* fBodyGyromeanX
+* fBodyGyromeanY
+* fBodyGyromeanZ
+* fBodyGyrostdX
+* fBodyGyrostdY
+* fBodyGyrostdZ
+* fBodyGyromeanFreqX
+* fBodyGyromeanFreqY
+* fBodyGyromeanFreqZ
+* fBodyAccMagmean
+* fBodyAccMagstd
+* fBodyAccMagmeanFreq
+* fBodyBodyAccJerkMagmean
+* fBodyBodyAccJerkMagstd
+* fBodyBodyAccJerkMagmeanFreq
+* fBodyBodyGyroMagmean
+* fBodyBodyGyroMagstd
+* fBodyBodyGyroMagmeanFreq
+* fBodyBodyGyroJerkMagmean
+* fBodyBodyGyroJerkMagstd
+* fBodyBodyGyroJerkMagmeanFreq
+* angletBodyAccMeangravity
+* angletBodyAccJerkMeangravityMean
+* angletBodyGyroMeangravityMean
+* angletBodyGyroJerkMeangravityMean
+* angleXgravityMean
+* angleYgravityMean
+* angleZgravityMean
 
 
-##Data Capture Details:
+## Data Capture Details:
 
 Details of the data source can be found in the following file:
 *  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
